@@ -9,11 +9,11 @@
     }
   },
   "code": {
-    "java": [{
-      "url": "../../../SourceCode/Java/Lists/AList.java",
+    "python": [{
+      "url": "../../../SourceCode/Python/Lists/AList.py",
       "lineNumbers": false,
-      "startAfter": "/* *** ODSATag: AListAppend *** */",
-      "endBefore": "/* *** ODSAendTag: AListAppend *** */",
+      "startAfter": "#/* *** ODSATag: AListAppend *** */",
+      "endBefore": "#/* *** ODSAendTag: AListAppend *** */",
       "tags": {
         "sig": 2,
         "check": 3,

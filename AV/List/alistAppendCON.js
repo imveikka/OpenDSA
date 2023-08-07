@@ -52,7 +52,7 @@ $(document).ready(function() {
 
   // Slide 4
   av.umsg(interpret("sc4"));
-  pseudo.setCurrentLine("assign");
+  pseudo.setCurrentLine([5, 6]);
   arrLS.value(0, 6);
   arrMS.unhighlight(0);
   arr.value(5, "23");
@@ -63,6 +63,5 @@ $(document).ready(function() {
   arr.unhighlight(5);
   arr.removeClass([5], "unused");
   arrLS.unhighlight(0);
-  pseudo.setCurrentLine(0);
   av.recorded();
 });

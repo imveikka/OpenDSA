@@ -10,18 +10,18 @@
     }
   },
   "code": {
-    "java": [{
-      "url": "../../../SourceCode/Java/Lists/LStack.java",
+    "Python": [{
+      "url": "../../../SourceCode/Python/Lists/LStack.py",
       "lineNumbers": false,
       "startAfter": "/* *** ODSATag: LStackPop *** */",
       "endBefore": "/* *** ODSAendTag: LStackPop *** */",
       "tags": {
         "sig": 1,
         "null": 2,
-        "it": 3,
-        "top": 4,
-        "size": 5,
-        "return": 6
+        "it": 4,
+        "top": 5,
+        "size": 6,
+        "return": 7
       }
     }],
     "java_generic": [{

@@ -19,43 +19,43 @@
     }
   },
   "code" : {
-    "java":[ 
+    "python":[ 
     {
-      "url": "../../../SourceCode/Java/RecurTutor/WrtSumex.java",
+      "url": "../../../SourceCode/Python/RecurTutor/WrtSumex.py",
       "lineNumbers": false,
       "tags": {
        "sig": 1,
        "bc": 2,
        "bcac": 3,
-       "rc": 5  
+       "rc": 4  
       }
     },
     {
-      "url": "../../../SourceCode/Java/RecurTutor/WrtSumex0.java",
+      "url": "../../../SourceCode/Python/RecurTutor/WrtSumex0.py",
       "lineNumbers": false,
       "tags": {
        "bcac": 3
       }
     },
     {
-      "url": "../../../SourceCode/Java/RecurTutor/WrtSumex1.java",
+      "url": "../../../SourceCode/Python/RecurTutor/WrtSumex1.py",
       "lineNumbers": false,
       "tags": {
-       "rc": 5  
+       "rc": 4  
       }
     },
     {
-      "url": "../../../SourceCode/Java/RecurTutor/WrtSumex2.java",
+      "url": "../../../SourceCode/Python/RecurTutor/WrtSumex2.py",
       "lineNumbers": false,
       "tags": {
-       "rc": 5  
+       "rc": 4  
       }
     },
     {
-      "url": "../../../SourceCode/Java/RecurTutor/WrtSumex3.java",
+      "url": "../../../SourceCode/Python/RecurTutor/WrtSumex3.py",
       "lineNumbers": false,
       "tags": {
-       "rc": 5  
+       "rc": 4  
       }
     }
    ],

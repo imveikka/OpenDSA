@@ -23,7 +23,7 @@
   "code" : {
       "Pseudo": [
        {
-        "url": "../../../SourceCode/Pseudo/RecurTutor/WrtSteps.txt",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSteps.py",
         "startAfter": "/* *** ODSATag: slide2 *** */",
         "endBefore": "/* *** ODSAendTag: slide2 *** */",
         "tags": {
@@ -31,7 +31,7 @@
         }
        },
       {
-        "url": "../../../SourceCode/Pseudo/RecurTutor/WrtSteps.txt",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSteps.py",
         "startAfter": "/* *** ODSATag: slide3 *** */",
         "endBefore": "/* *** ODSAendTag: slide3 *** */",
         "tags": {
@@ -39,14 +39,14 @@
        }
       },
       {
-        "url": "../../../SourceCode/Pseudo/RecurTutor/WrtSteps.txt",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSteps.py",
         "startAfter": "/* *** ODSATag: slide4 *** */",
         "endBefore": "/* *** ODSAendTag: slide4 *** */",
         "tags": {
 	  }
       },
       {
-        "url": "../../../SourceCode/Pseudo/RecurTutor/WrtSteps.txt",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSteps.py",
         "startAfter": "/* *** ODSATag: slide7 *** */",
         "endBefore": "/* *** ODSAendTag: slide7 *** */",
         "tags": {
@@ -56,28 +56,28 @@
       }
      },
      {
-        "url": "../../../SourceCode/Pseudo/RecurTutor/WrtSteps.txt",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSteps.py",
         "startAfter": "/* *** ODSATag: slide12 *** */",
         "endBefore": "/* *** ODSAendTag: slide12 *** */",
         "tags": {
 	  }
       },
       {
-        "url": "../../../SourceCode/Pseudo/RecurTutor/WrtSteps.txt",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSteps.py",
         "startAfter": "/* *** ODSATag: slide13 *** */",
         "endBefore": "/* *** ODSAendTag: slide13 *** */",
         "tags": {
 	  }
       },
       {
-        "url": "../../../SourceCode/Pseudo/RecurTutor/WrtSteps.txt",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSteps.py",
         "startAfter": "/* *** ODSATag: slide15 *** */",
         "endBefore": "/* *** ODSAendTag: slide15 *** */",
         "tags": {
 	  }
       },
       {
-        "url": "../../../SourceCode/Pseudo/RecurTutor/WrtSteps.txt",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSteps.py",
         "startAfter": "/* *** ODSATag: slide16 *** */",
         "endBefore": "/* *** ODSAendTag: slide16 *** */",
         "tags": {
@@ -86,7 +86,7 @@
 	  }
       },
       {
-        "url": "../../../SourceCode/Pseudo/RecurTutor/WrtSteps.txt",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSteps.py",
         "startAfter": "/* *** ODSATag: slide17 *** */",
         "endBefore": "/* *** ODSAendTag: slide17 *** */",
         "tags": {

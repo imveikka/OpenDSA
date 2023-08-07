@@ -16,7 +16,7 @@
       "sc13": "A program is an instantiation of a particular algorithm that solves a particular problem, implemented in some programming language.",
       "sc14": "<br><br>A program accepts a problem instance as an input.",
       "sc15": "<br><br>Then the program is executed to generate the output.",
-      "sc16": "Here we present the sequential search algorithm implemented as a Java function.",
+      "sc16": "Here we present the sequential search algorithm implemented as a Python function.",
       "lab1": "Searching Problem",
       "lab2": "Algorithm",
       "lab3": "Program",
@@ -28,6 +28,29 @@
     }
   },
   "code": {
+    "python": [
+      {
+        "url": "../../../SourceCode/Python/Searching/SequentialNoComments.py",
+        "lineNumbers": false,
+        "startAfter": "#/* *** ODSATag: Sequential *** */",
+        "endBefore": "#/* *** ODSAendTag: Sequential *** */",
+        "top": 80,
+        "left": 397,
+        "tags": {
+        }
+      },
+      {
+        "url": "../../../SourceCode/Pseudo/Searching/Sequential.txt",
+        "lineNumbers": false,
+        "startAfter": "/* *** ODSATag: Sequential *** */",
+        "endBefore": "/* *** ODSAendTag: Sequential *** */",
+        "top": 80,
+        "left": 397,
+        "tags": {
+
+        }
+      }
+    ],
     "java": [
       {
         "url": "../../../SourceCode/Java/Searching/SequentialNoComments.java",

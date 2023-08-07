@@ -11,8 +11,8 @@
     }
   },
   "code" : {
-    "java": [{
-      "url": "../../../SourceCode/Java/RecurTutor/Recmultiply.java",
+    "python": [{
+      "url": "../../../SourceCode/Python/RecurTutor/Recmultiply.py",
       "lineNumbers": false,
       "tags": {
         "sig": 1,

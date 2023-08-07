@@ -1,0 +1,94 @@
+{
+    "title": "BM40A1500 Data Structures and Algorithms",
+    "desc": "Data Structures and Algorithms",
+    "build_dir": "Books",
+    "code_dir": "SourceCode/",
+    "code_lang": {
+        "Python" : {"ext": ["py"], "label": "Python", "lang": "Python"}
+    },
+    "lang": "en",
+    "build_JSAV": false,
+    "suppress_todo": true,
+    "dispModComp": true,
+    "chapters": {
+        "Introduction for Data Structures and Algorithms": {
+            "LUTDSA/IntroDSA": {},
+            "LUTDSA/AnalPrelim": {},
+            "LUTDSA/ADT": {}
+        },
+        "Algorithm Analysis": {
+            "LUTDSA/AnalChap": {},
+            "LUTDSA/AnalIntro": {},
+            "LUTDSA/AnalCases": {},
+            "LUTDSA/AnalCompvsAlg": {},
+            "LUTDSA/AnalAsymptotic": {},
+            "LUTDSA/AnalLower": {},
+            "LUTDSA/AnalProgram": {},
+            "LUTDSA/AnalMisunderstanding": {},
+            "LUTDSA/AnalMultiple": {},
+            "LUTDSA/AnalSpace": {}
+        },
+        "Linear Data Structures": {
+            "LUTDSA/ListADT": {},
+            "LUTDSA/ListArray": {},
+            "LUTDSA/ListLinked": {},
+            "LUTDSA/ListAnalysis": {},
+            "LUTDSA/StackArray": {},
+            "LUTDSA/StackLinked": {},
+            "LUTDSA/Queue": {},
+            "LUTDSA/QueueLinked": {},
+            "LUTDSA/BinarySearch": {}
+        },
+        "Hashing": {
+            "LUTDSA/HashIntro": {},
+            "LUTDSA/HashFunc": {},
+            "LUTDSA/HashFuncExamp": {},
+            "LUTDSA/OpenHash": {},
+            "LUTDSA/BucketHash": {},
+            "LUTDSA/HashCSimple": {},
+            "LUTDSA/HashDel": {}
+        },
+        "Recursion and Binary Trees": {
+            "LUTDSA/RecIntro": {},
+            "LUTDSA/RecWrite": {},
+            "LUTDSA/RecTrace": {},
+            "LUTDSA/BST": {},
+            "LUTDSA/BinaryTreeTraversal": {},
+            "LUTDSA/BSTDict": {},
+            "LUTDSA/BalancedTree": {},
+            "LUTDSA/TwoThreeTree": {},
+            "LUTDSA/AVL": {},
+            "LUTDSA/Heaps": {},
+            "LUTDSA/Heapsort": {}
+        },
+        "Algorithm Desingn Principles": {
+            "LUTDSA/AlgDesignIntro": {},
+            "LUTDSA/Greedy": {},
+            "LUTDSA/Backtracking": {},
+            "LUTDSA/Mergesort": {},
+            "LUTDSA/Quicksort": {},
+            "LUTDSA/DynamicProgramming": {},
+            "LUTDSA/Probabilistic": {},
+            "LUTDSA/Primes": {}
+        },
+        "Graphs": {
+            "LUTDSA/GraphIntro": {},
+            "LUTDSA/GraphTraversal": {},
+            "LUTDSA/GraphShortest": {},
+            "LUTDSA/Floyd": {},
+            "LUTDSA/MCST": {},
+            "LUTDSA/Kruskal": {}
+        },
+        "NP-completeness": {
+            "LUTDSA/LimComp": {},
+            "LUTDSA/Reduction": {},
+            "LUTDSA/NPComplete": {},
+            "LUTDSA/NPExamp": {},
+            "LUTDSA/provingNPC": {},
+            "LUTDSA/NPCoping": {}
+        },
+        "Appendix": {
+            "Glossary": {}
+        }
+    }
+}

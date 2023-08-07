@@ -1,36 +1,37 @@
 {
   "translations": {
     "en": {
-      "sc1": "Consider searching for the record with key value 32 in this tree. We call the findhelp method with a pointer to the BST root (the node with key value 37).",
-      "sc2": "Check what rt is pointing to. It is not null.",
-      "sc3": "Check the value at the root. We find that it is greater than what we are looking for.",
+      "sc1": "Consider searching for the record with key value 32 in this tree. We call the helper method with a Node object to the BST root (the node with key value 37).",
+      "sc2": "Check what node is pointing to. It is not None.",
+      "sc3": "Check the value at the node. We find that it is greater than what we are looking for.",
       "sc4": "So we want to visit the left child.",
-      "sc5": "We make a recursive call with the left child as the new rt.",
-      "sc7": "So it must be that the root value is less than what we are looking for. So we want to visit the right child.",
-      "sc9": "We make a recursive call with the right child as the new rt.",
-      "sc11": "Check the value at the root. This is the record that we are looking for.",
-      "sc12": "Now we will start unwinding the recursion, passing the record with key value 32 back up to the caller.",
-      "sc13": "Pop the recursion, now rt is back to the node with value 24.",
-      "sc14": "Pop the recursion, now rt is back to the node with value 37.",
-      "sc15": "Pop the recursion one final time to return the record with value 32 back to the original caller of findhelp.",
-      "sc16": "Check the value at the root. We find that it is not greater than what we are looking for.",
-      "sc17": "Check the value at the root. We find that it is not equal to what we are looking for."
+      "sc5": "We make a recursive call with the left child as the new node.",
+      "sc7": "Check the value at the node. We find that it is less than what we are looking for.",
+      "sc8": "So we want to visit the left child.",
+      "sc9": "We make a recursive call with the right child as the new node.",
+      "sc11": "Thus, this is the record that we are looking for.",
+      "sc12": "Now we will start unwinding the recursion, returning value True back up to the caller.",
+      "sc13": "Pop the recursion, now node is back to the node with value 24.",
+      "sc14": "Pop the recursion, now node is back to the node with value 37.",
+      "sc15": "Pop the recursion one final time to return the value True back to the original caller of findhelp.",
+      "sc16": "Check the value at the node. We find that it is not greater or less than what we are looking for."
     }
   },
   "code": {
-    "java": [{
-      "url": "../../../SourceCode/Java/Binary/BST.java",
+    "python": [{
+      "url": "../../../SourceCode/Python/Binary/BST.py",
       "lineNumbers": false,
-      "startAfter": "/* *** ODSATag: findhelp *** */",
-      "endBefore": "/* *** ODSAendTag: findhelp *** */",
+      "startAfter": "#/* *** ODSATag: find *** */",
+      "endBefore": "#/* *** ODSAendTag: find *** */",
       "tags": {
-        "sig": 1,
-        "checknull": 2,
-        "checkgreater": 3,
-        "visitleft": 4,
+        "sig": [2, 5],
+        "checknull": 6,
+        "checkgreater": 8,
+        "visitleft": 9,
         "checkequal": 5,
-        "found": 6,
-        "visitright": 7,
+        "found": [12, 13],
+        "checksmaller": 10,
+        "visitright": 11,
         "end": 8
       }
     }],

@@ -57,7 +57,7 @@
 }
 
 #llistSpecialCON {
-  height: 290px;
+  height: 300px;
 }
 
 #llistSpecialCON .jsavoutput.jsavline {
@@ -65,8 +65,8 @@
 }
 
 #llistSpecialCON .jsavcode{
-  margin-left: 338px;
-  width: 510px;
+  margin-left: 330px;
+  width: 520px;
 }
 
 #llistRemoveCON {

@@ -12,18 +12,18 @@
     }
   },
   "code": {
-    "java": [{
-      "url": "../../../SourceCode/Java/Lists/LList.java",
+    "python": [{
+      "url": "../../../SourceCode/Python/Lists/LList.py",
       "lineNumbers": false,
-      "startAfter": "/* *** ODSATag: LListRemove *** */",
-      "endBefore": "/* *** ODSAendTag: LListRemove *** */",
+      "startAfter": "#/* *** ODSATag: LListRemove *** */",
+      "endBefore": "#/* *** ODSAendTag: LListRemove *** */",
       "tags": {
         "sig": 2,
-        "remember": 4,
-        "setelem": 5,
-        "setnext": 7,
-        "listSize": 8,
-        "return": 9
+        "remember": 5,
+        "setelem": 6,
+        "setnext": 9,
+        "listSize": 10,
+        "return": 11
       }
     }],
     "java_generic": [{

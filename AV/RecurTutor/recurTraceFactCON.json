@@ -15,9 +15,9 @@
   }
  },
   "code" : {
-   "java": [
+   "python": [
        {
-        "url": "../../../SourceCode/Java/RecurTutor/Recfact.java",
+        "url": "../../../SourceCode/Python/RecurTutor/Recfact.py",
         "tags": {
          "sig": 1,
          "bc": 2,
@@ -26,7 +26,7 @@
         }
        },
       {
-        "url": "../../../SourceCode/Java/RecurTutor/Recfact5.java",
+        "url": "../../../SourceCode/Python/RecurTutor/Recfact5.py",
         "tags": {
          "sig": 1,
          "bc": 2,
@@ -35,7 +35,7 @@
        }
       },
       {
-        "url": "../../../SourceCode/Java/RecurTutor/Recfact4.java",
+        "url": "../../../SourceCode/Python/RecurTutor/Recfact4.py",
         "tags": {
          "sig": 1,
          "bc": 2,
@@ -44,7 +44,7 @@
 	  }
       },
       {
-        "url": "../../../SourceCode/Java/RecurTutor/Recfact3.java",
+        "url": "../../../SourceCode/Python/RecurTutor/Recfact3.py",
         "tags": {
          "sig": 1,
          "bc": 2,
@@ -53,7 +53,7 @@
       }
      },
      {
-        "url": "../../../SourceCode/Java/RecurTutor/Recfact2.java",
+        "url": "../../../SourceCode/Python/RecurTutor/Recfact2.py",
         "tags": {
          "sig": 1,
          "bc": 2,
@@ -62,7 +62,7 @@
 	  }
       },
       {
-        "url": "../../../SourceCode/Java/RecurTutor/Recfact1.java",
+        "url": "../../../SourceCode/Python/RecurTutor/Recfact1.py",
         "tags": {
          "sig": 1,
          "bc": 2,
@@ -71,7 +71,7 @@
 	  }
       },
       {
-        "url": "../../../SourceCode/Java/RecurTutor/Recfact2r.java",
+        "url": "../../../SourceCode/Python/RecurTutor/Recfact2r.py",
         "tags": {
          "sig": 1,
          "bc": 2,
@@ -80,7 +80,7 @@
 	  }
       },
       {
-        "url": "../../../SourceCode/Java/RecurTutor/Recfact3r.java",
+        "url": "../../../SourceCode/Python/RecurTutor/Recfact3r.py",
         "tags": {
          "sig": 1,
          "bc": 2,
@@ -89,7 +89,7 @@
 	  }
       },
       {
-        "url": "../../../SourceCode/Java/RecurTutor/Recfact4r.java",
+        "url": "../../../SourceCode/Python/RecurTutor/Recfact4r.py",
         "tags": {
          "sig": 1,
          "bc": 2,
@@ -98,7 +98,7 @@
 	  }
       },
       {
-        "url": "../../../SourceCode/Java/RecurTutor/Recfact5r.java",
+        "url": "../../../SourceCode/Python/RecurTutor/Recfact5r.py",
         "tags": {
          "sig": 1,
          "bc": 2,

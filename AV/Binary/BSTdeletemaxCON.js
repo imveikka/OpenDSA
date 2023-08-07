@@ -23,29 +23,33 @@ $(document).ready(function() {
 
   // Slide 1
   av.umsg(interpret("sc1"));
-  pseudo.setCurrentLine("sig");
+  pseudo.highlight(1);
   av.displayInit();
 
   // Slide 2
   av.umsg(interpret("sc2"));
-  pseudo.setCurrentLine("checknull");
+  pseudo.unhighlight(1);
+  pseudo.highlight(2);
   av.step();
 
   // Slide 3
   av.umsg(interpret("sc3"));
   bt.root().addClass("processing");
   rt1.target(rt.right(), {anchor: "right top"});
-  pseudo.setCurrentLine("sig");
+  pseudo.unhighlight(2);
+  pseudo.highlight(4);
   av.step();
 
   // Slide 4
   av.umsg(interpret("sc4"));
-  pseudo.setCurrentLine("checknull");
+  pseudo.unhighlight(4);
+  pseudo.highlight([2, 3]);
   av.step();
 
   // Slide 5
   av.umsg(interpret("sc5"));
-  pseudo.setCurrentLine("setright");
+  pseudo.unhighlight([2, 3]);
+  pseudo.highlight(5);
   bt.root().removeClass("processing");
   rt1.target(rt, {anchor: "left top"});
   rt.right(rt.right().left());

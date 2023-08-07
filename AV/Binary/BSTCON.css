@@ -1,5 +1,5 @@
 #BSTsearchCON {
-  height: 360px;
+  height: 400px;
 }
 
 #BSTsearchCON .jsavoutput.jsavline {
@@ -11,7 +11,7 @@
 }
 
 #BSTinsertCON {
-  height: 540px;
+  height: 600px;
 }
 
 #BSTinsertCON .jsavoutput.jsavline {
@@ -35,7 +35,7 @@
 }
 
 #BSTremoveCON {
-  height: 710px;
+  height: 760;
 }
 
 #BSTremoveCON .jsavoutput.jsavline {

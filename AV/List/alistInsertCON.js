@@ -55,7 +55,7 @@ $(document).ready(function() {
   arr.show();
   arrow1.show();
   label.show();
-  pseudo.setCurrentLine("sig");
+  pseudo.highlight(2);
   arrMS.show();
   labelMaxSize.show();
   arrLS.show();
@@ -78,8 +78,8 @@ $(document).ready(function() {
   arrow1.hide();
   arrow2.show();
   label.hide();
-  pseudo.setCurrentLine("for");
-  pseudo.highlight("forbody");
+  pseudo.unhighlight(2);
+  pseudo.highlight([6, 7]);
   av.step();
 
   // Slide 4
@@ -87,14 +87,14 @@ $(document).ready(function() {
   arr.value(0, 23);
   arr.highlight([0]);
   arrow2.hide();
-  pseudo.setCurrentLine(0);      // Hack until we get multi-line method
-  pseudo.unhighlight("forbody");
-  pseudo.setCurrentLine("insert");
+  pseudo.unhighlight([6, 7]);
+  pseudo.unhighlight(8);
   av.step();
 
   // Slide 5
   av.umsg(interpret("sc5"));
-  pseudo.setCurrentLine("incr");
+  pseudo.unhighlight(8);
+  pseudo.unhighlight(9);
   arr.unhighlight([0]);
   arrLS.highlight(0);
   arrLS.value(0, 6);

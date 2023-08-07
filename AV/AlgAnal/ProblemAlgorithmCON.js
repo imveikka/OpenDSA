@@ -9,7 +9,7 @@ $(document).ready(function() {
       interpret = config.interpreter,       // get the interpreter
       code = config.code;                   // get the code object
   var av = new JSAV(av_name);
-  var javaCode = av.code(code[0]).hide();
+  var pyCode = av.code(code[0]).hide();
   var pseudo = av.code(code[1]).hide();
   var arr;
   var arr_values = [];
@@ -163,7 +163,7 @@ $(document).ready(function() {
 
   // Slide 16
   av.umsg(interpret("sc16"));
-  javaCode.show();
+  pyCode.show();
   rect.css({width: rectWidth + 98});
   labelProblem.css({left: "+=15"});
   lineOutput1.hide();

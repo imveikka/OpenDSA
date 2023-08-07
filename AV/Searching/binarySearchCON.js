@@ -30,7 +30,7 @@ $(document).ready(function () {
   av.umsg(interpret("sc3"));
   arr.addClass(7, "processing");
   pseudo.unhighlight("init");
-  pseudo.setCurrentLine("compute");
+  pseudo.highlight("compute");
   av.step();
 
   // Slide 4
@@ -38,13 +38,15 @@ $(document).ready(function () {
   arr.removeClass(7, "processing").highlight(8);
   arr.unhighlight(0);
   arr.addClass([0, 1, 2, 3, 4, 5, 6, 7], "deemph");
-  pseudo.setCurrentLine("right");
+  pseudo.unhighlight("compute");
+  pseudo.highlight("right");
   av.step();
 
   // Slide 5
   av.umsg(interpret("sc5"));
   arr.addClass(11, "processing");
-  pseudo.setCurrentLine("compute");
+  pseudo.unhighlight("right");
+  pseudo.highlight("compute");
   av.step();
 
   // Slide 6
@@ -52,13 +54,15 @@ $(document).ready(function () {
   arr.removeClass(11, "processing").highlight(10);
   arr.unhighlight(15);
   arr.addClass([11, 12, 13, 14, 15], "deemph");
-  pseudo.setCurrentLine("left");
+  pseudo.unhighlight("compute");
+  pseudo.highlight("left");
   av.step();
 
   // Slide 7
   av.umsg(interpret("sc7"));
   arr.addClass(9, "processing");
-  pseudo.setCurrentLine("compute");
+  pseudo.unhighlight("left");
+  pseudo.highlight("compute");
   av.step();
 
   // Slide 8
@@ -66,25 +70,29 @@ $(document).ready(function () {
   arr.removeClass(9, "processing");
   arr.unhighlight(10);
   arr.addClass([9, 10, 11], "deemph");
-  pseudo.setCurrentLine("left");
+  pseudo.unhighlight("compute");
+  pseudo.highlight("left");
   av.step();
 
   // Slide 9
   av.umsg(interpret("sc9"));
   arr.addClass(8, "processing");
-  pseudo.setCurrentLine("compute");
+  pseudo.unhighlight("left");
+  pseudo.highlight("compute");
   av.step();
 
   // Slide 10
   av.umsg(interpret("sc10"));
   arr.removeClass(8, "processing");
   arr.addClass(8, "special");
-  pseudo.setCurrentLine("found");
+  pseudo.unhighlight("compute");
+  pseudo.highlight("found");
   av.step();
 
   // Slide 11
   av.umsg(interpret("sc11"));
   pseudo.setCurrentLine(0); // Clears both "previous" and "current" line highlight
+  pseudo.unhighlight("found");
   pseudo.highlight("while");
   pseudo.highlight("return");
   av.step();

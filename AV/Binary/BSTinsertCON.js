@@ -33,78 +33,85 @@ $(document).ready(function() {
 
   // Slide 1
   av.umsg(interpret("sc1"));
-  pseudo.setCurrentLine("sig");
+  pseudo.highlight([2, 5])
   av.displayInit();
 
   // Slide 2
   av.umsg(interpret("sc2"));
-  pseudo.setCurrentLine("checknull");
+  pseudo.unhighlight([2, 5])
+  pseudo.highlight(6)
   av.step();
 
   // Slide 3
   av.umsg(interpret("sc3"));
-  pseudo.setCurrentLine("compare");
+  pseudo.unhighlight(6)
+  pseudo.highlight(8)
   av.step();
 
   // Slide 4
   av.umsg(interpret("sc4"));
-  pseudo.setCurrentLine("visitleft");
   av.step();
 
   // Slide 5
   av.umsg(interpret("sc5"));
-  pseudo.setCurrentLine("sig");
+  pseudo.unhighlight(8)
+  pseudo.highlight(9)
   bt.root().addClass("processing");
   rt1.target(bt.root().left(), {anchor: "left top"});
   av.step();
 
   // Slide 6
   av.umsg(interpret("sc2"));
-  pseudo.setCurrentLine("checknull");
+  pseudo.unhighlight(9)
+  pseudo.highlight(6)
   av.step();
 
   // Slide 7
   av.umsg(interpret("sc7"));
-  pseudo.setCurrentLine("compare");
+  pseudo.unhighlight(6)
+  pseudo.highlight(10)
   av.step();
 
   // Slide 8
   av.umsg(interpret("sc8"));
-  pseudo.setCurrentLine("visitright");
   av.step();
 
   // Slide 9
   av.umsg(interpret("sc9"));
-  pseudo.setCurrentLine("sig");
+  pseudo.unhighlight(10)
+  pseudo.highlight(11)
   bt.root().left().addClass("processing");
   rt1.target(bt.root().left().right(), {anchor: "right top"});
   av.step();
 
   // Slide 10
   av.umsg(interpret("sc2"));
-  pseudo.setCurrentLine("checknull");
+  pseudo.unhighlight(11)
+  pseudo.highlight(6)
   av.step();
 
   // Slide 11
   av.umsg(interpret("sc3"));
-  pseudo.setCurrentLine("compare");
+  pseudo.unhighlight(6)
+  pseudo.highlight(8)
   av.step();
 
   // Slide 12
   av.umsg(interpret("sc4"));
-  pseudo.setCurrentLine("visitleft");
   av.step();
 
   // Slide 13
   av.umsg(interpret("sc5"));
-  pseudo.setCurrentLine("sig");
+  pseudo.unhighlight(8)
+  pseudo.highlight(9)
   bt.root().left().right().addClass("processing");
   rt1.target(newnode, {anchor: "left top"});
   av.step();
 
   // Slide 14
   av.umsg(interpret("sc14"));
-  pseudo.setCurrentLine("checknull");
+  pseudo.unhighlight(9)
+  pseudo.highlight([6, 7])
   newnode.show();
   newnode.removeClass("invisnode");
   newnode.addClass("rednode");
@@ -113,6 +120,8 @@ $(document).ready(function() {
 
   // Slide 15
   av.umsg(interpret("sc15"));
+  pseudo.unhighlight([6, 7])
+  pseudo.highlight(12)
   av.step();
 
   // Slide 16
@@ -121,7 +130,8 @@ $(document).ready(function() {
   newedge.show();
   bt.root().left().right().removeClass("processing");
   rt1.target(newnode, {anchor: "left top"});
-  pseudo.setCurrentLine("visitleft");
+  pseudo.unhighlight(12)
+  pseudo.highlight(9)
   av.step();
 
   // Slide 17
@@ -131,7 +141,8 @@ $(document).ready(function() {
   newedge.addClass("rededge");
   bt.root().left().removeClass("processing");
   rt1.target(newnode, {anchor: "left top"});
-  pseudo.setCurrentLine("visitright");
+  pseudo.unhighlight(9)
+  pseudo.highlight(11)
   av.step();
 
   // Slide 18
@@ -141,7 +152,8 @@ $(document).ready(function() {
   newedge.addClass("rededge");
   bt.root().removeClass("processing");
   rt1.target(newnode, {anchor: "left top"});
-  pseudo.setCurrentLine("visitleft");
+  pseudo.unhighlight(11)
+  pseudo.highlight(9)
   av.step();
 
   // Slide 19
@@ -151,6 +163,7 @@ $(document).ready(function() {
   root1.arrow.addClass("thinredline");
   // This line should not be needed, but it is here to fix Raphael bug with arrows
   root1.arrow.css({stroke: "red"});
-  pseudo.setCurrentLine("end");
+  pseudo.unhighlight(9)
+  pseudo.highlight(2)
   av.recorded();
 });

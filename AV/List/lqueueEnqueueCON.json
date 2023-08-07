@@ -9,11 +9,11 @@
     }
   },
   "code": {
-    "java": [{
-      "url": "../../../SourceCode/Java/Lists/LQueue.java",
+    "python": [{
+      "url": "../../../SourceCode/Python/Lists/LQueue.py",
       "lineNumbers": false,
-      "startAfter": "/* *** ODSATag: LQueueEnqueue *** */",
-      "endBefore": "/* *** ODSAendTag: LQueueEnqueue *** */",
+      "startAfter": "#/* *** ODSATag: LQueueEnqueue *** */",
+      "endBefore": "#/* *** ODSAendTag: LQueueEnqueue *** */",
       "tags": {
         "sig": 2,
         "setNext": 3,

@@ -10,11 +10,11 @@
     }
   },
   "code": {
-    "java": [{
-      "url": "../../../SourceCode/Java/Binary/BST.java",
+    "python": [{
+      "url": "../../../SourceCode/Python/Binary/BST.py",
       "lineNumbers": false,
-      "startAfter": "/* *** ODSATag: removehelp *** */",
-      "endBefore": "/* *** ODSAendTag: removehelp *** */",
+      "startAfter": "#/* *** ODSATag: remove *** */",
+      "endBefore": "#/* *** ODSAendTag: remove *** */",
       "tags": {
         "sig": 1,
         "checknull": 2,

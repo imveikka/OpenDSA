@@ -15,7 +15,7 @@ $(document).ready(function() {
   av.umsg(interpret("sc1"));
   var pseudo = av.code(code[0]);
   var arr = av.ds.array(theArray, {indexed: true});
-  var label = av.label("arr", {before: arr, left: 350, top: 145});
+  var label = av.label("", {before: arr, left: 350, top: 145});
   label.show();
   av.displayInit();
 

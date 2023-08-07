@@ -12,33 +12,33 @@
   "code" : {
     "java": [
        {
-        "url": "../../../SourceCode/Java/RecurTutor/WrtSumV1.java",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSumV1.py",
         "tags": {
          "bc": 3,
          "rc": 5
         }
        },
       {
-        "url": "../../../SourceCode/Java/RecurTutor/WrtSumV2.java",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSumV2.py",
         "tags": {
          "bc": 3,
          "rc": 6,
-         "ret": 8
+         "ret": 7
          
        }
       },
       {
-        "url": "../../../SourceCode/Java/RecurTutor/WrtSumV3.java",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSumV3.py",
         "tags": {
          "bc": 3,
          "rc": 5
 	  }
       },
       {
-        "url": "../../../SourceCode/Java/RecurTutor/WrtSumV4.java",
+        "url": "../../../SourceCode/Python/RecurTutor/WrtSumV4.py",
         "tags": {
          "bc": 3,
-         "rc": 5
+         "rc": 4
       }
      }
     ],

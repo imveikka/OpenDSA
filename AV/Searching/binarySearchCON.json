@@ -16,6 +16,22 @@
     }
   },
   "code" : {
+    "python": {
+      "url": "../../../SourceCode/Python/Searching/Bsearch.py",
+      "startAfter": "#/* *** ODSATag: BinarySearch *** */",
+      "endBefore": "#/* *** ODSAendTag: BinarySearch *** */",
+      "lineNumbers": false,
+      "tags": {
+        "sig": 3,
+        "init": [4, 5],
+        "while": 6,
+        "compute": 7,
+        "right": [8, 9],
+        "left": [10, 11],
+	"found": [12, 13],
+        "return": 14
+      }
+    },
     "java": {
       "url": "../../../SourceCode/Java/Searching/Bsearch.java",
       "startAfter": "/* *** ODSATag: BinarySearch *** */",

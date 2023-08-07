@@ -9,14 +9,15 @@
   },
   "code": {
     "java": [{
-      "url": "../../../SourceCode/Java/Lists/AStack.java",
+      "url": "../../../SourceCode/Python/Lists/AStack.py",
       "lineNumbers": false,
       "startAfter": "/* *** ODSATag: AStackPop *** */",
       "endBefore": "/* *** ODSAendTag: AStackPop *** */",
       "tags": {
         "sig": 1,
         "empty": 2,
-        "return": 3
+        "dec": 4,
+        "return": 5
       }
     }],
     "java_generic": [{

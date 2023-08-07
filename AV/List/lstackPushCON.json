@@ -10,8 +10,8 @@
     }
   },
   "code": {
-    "java": [{
-      "url": "../../../SourceCode/Java/Lists/LStack.java",
+    "python": [{
+      "url": "../../../SourceCode/Python/Lists/LStack.py",
       "lineNumbers": false,
       "startAfter": "/* *** ODSATag: LStackPush *** */",
       "endBefore": "/* *** ODSAendTag: LStackPush *** */",

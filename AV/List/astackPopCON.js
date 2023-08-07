@@ -44,11 +44,12 @@ $(document).ready(function() {
   arr.highlight(3);
   topArr.value(0, 3);
   topArr.highlight(0);
-  pseudo.setCurrentLine("return");
+  pseudo.setCurrentLine("dec");
   av.step();
 
   // Slide 4
   av.umsg(interpret("sc4"));
+  pseudo.setCurrentLine("return");
   arrReturn.show();
   labelReturn.show();
   av.effects.copyValue(arr, 3, arrReturn, 0);

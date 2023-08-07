@@ -46,6 +46,7 @@ $(document).ready(function() {
 
   // Slide 4
   av.umsg(interpret("sc4"));
+  pseudo.setCurrentLine("inc");
   topArr.value(0, 5);
   topArr.highlight(0);
   arr.unhighlight(4);
