@@ -64,9 +64,9 @@
         "Algorithm Design Principles": {
             "LUTDSA/AlgDesignIntro": {},
             "LUTDSA/Greedy": {},
-            "LUTDSA/Backtracking": {},
             "LUTDSA/Mergesort": {},
             "LUTDSA/Quicksort": {},
+            "LUTDSA/Backtracking": {},
             "LUTDSA/DynamicProgramming": {},
             "LUTDSA/Probabilistic": {},
             "LUTDSA/Primes": {}

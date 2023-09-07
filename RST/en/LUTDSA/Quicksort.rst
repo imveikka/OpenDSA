@@ -11,8 +11,8 @@
 
 .. index:: ! Quicksort
 
-Quicksort
-=========
+Divide and Conquer: Quicksort
+=============================
 
 Introduction
 ------------
