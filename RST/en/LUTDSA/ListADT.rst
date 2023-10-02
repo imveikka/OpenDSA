@@ -93,8 +93,6 @@ space/time tradeoffs.
 The code below presents our list ADT in Python.
 Any implementation for a :term:`container class` such as a list should
 be able to support different data types for the elements.
-.. One way to do this in Java is to store data values of type
-.. ``Object``.
 Languages that support generics (Java) or templates (C++) give more
 control over the element types.
 
