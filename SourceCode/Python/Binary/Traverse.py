@@ -1,23 +1,23 @@
 # /* *** ODSATag: inorder *** */
 def inorder(node):
-    if node is None: return  # Empty subtree - do nothing
-    preorder(node.left())    # Process all nodes in left
-    visit(node)                # Visit root node
-    preorder(node.right())   # Process all nodes in right
+    if node is None: return # Empty subtree - do nothing
+    inorder(node.left())    # Process all nodes in left
+    visit(node)             # Visit root node
+    inorder(node.right())   # Process all nodes in right
 # /* *** ODSAendTag: inorder *** */
 
 # /* *** ODSATag: postorder *** */
 def postorder(node):
-    if node is None: return  # Empty subtree - do nothing
-    preorder(node.left())    # Process all nodes in left
-    preorder(node.right())   # Process all nodes in right
-    visit(node)                # Visit root node
+    if node is None: return   # Empty subtree - do nothing
+    postorder(node.left())    # Process all nodes in left
+    postorder(node.right())   # Process all nodes in right
+    visit(node)               # Visit root node
 # /* *** ODSAendTag: postorder *** */
 
 # /* *** ODSATag: preorder *** */
 def preorder(node):
     if node is None: return  # Empty subtree - do nothing
-    visit(node)                # Visit root node
+    visit(node)              # Visit root node
     preorder(node.left())    # Process all nodes in left
     preorder(node.right())   # Process all nodes in right
 # /* *** ODSAendTag: preorder *** */
